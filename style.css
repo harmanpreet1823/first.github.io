@@ -1,0 +1,53 @@
+/*.donut {
+    width:200px;
+    height: 200px;
+    background:url("brown.png");
+    background-size: cover;
+    margin: 400px auto 0 auto;
+    transition-property: all;
+    transition-duration: 5s;
+    position: relative;
+    top: -200px;
+    filter: none;
+    transform: rotate(0deg);
+    
+}
+
+.donut:hover {
+    filter: brightness(200%);
+    transform: rotateY(720deg);
+}*/
+body
+{
+    overflow: hidden;
+    background-image: url(bg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.donut {
+    width:500px;
+    height: 500px;
+    background:url("car1.gif");
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 10s;
+    position: absolute;
+    animation-name: sample;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes sample
+{
+    0% {
+            
+             left: -50%;
+               
+    }
+    100% {
+      
+       left: 150%;
+    }
+}
+*/
