@@ -1,0 +1,231 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.container
+{
+	width: 100%;
+	background: #ffffff;
+	font-size:20px;
+	
+
+	
+}
+p{
+	padding:60px;
+	font-family: arial;
+	color:grey;
+	text-align: justify;
+	
+}
+.parallax
+{
+	background: linear-gradient(rgba(255,0,0,0.4),rgba(0,0,255,0.4)), url("im.jpg") no-repeat center;
+	background-blend-mode: screen;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+
+	
+}
+
+.sc
+{
+	width: 100%;
+	
+	background: #ffffff;
+	font-size:20px;
+}
+
+.parallax2
+{
+	background: url("bp.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+
+}
+		#a
+			{
+			
+			position: absolute;
+			top:420px;
+			left: 24%;
+			text-align: center;
+			font-size: 150px;
+			font-family: Franklin Gothic Heavy;
+			
+			color: white;
+			text-shadow: 10px 10px 20px grey;
+			}
+
+		#b
+		{
+			
+			position: absolute;
+			top:1090px;
+			left: 4%;
+			text-align: center;
+			font-size: 150px;
+			font-family: Franklin Gothic Heavy;
+			
+			color: white;
+			text-shadow: 10px 10px 20px grey;
+			}
+	@media screen and (max-width:1000px)
+			{
+				.container
+				{
+					width: 100%;
+					background: #ffffff;
+					font-size:100%;
+				}
+				.parallax
+				{
+					background: linear-gradient(rgba(255,0,0,0.4),rgba(0,0,255,0.4)), url("im.jpg") no-repeat center;
+					background-blend-mode: screen;
+					background-size: cover;
+					background-attachment: fixed;
+					height: 500px;
+				}
+				.sc
+					{
+						width: 100%;	
+						background: #ffffff;
+						font-size:100%;
+					}
+					
+			
+					.parallax2
+					{
+						background: url("bp.jpg") no-repeat center;
+						background-size: cover;
+						background-attachment: fixed;
+						height: 500px;
+					}
+						#a
+						{
+						
+						position: absolute;
+						top:440px;
+						left: 5%;
+						text-align: center;
+						font-size: 90px;
+						font-family: Franklin Gothic Heavy;
+						
+						color: white;
+						text-shadow: 10px 10px 20px grey;
+						}
+			
+					#b
+					{
+						
+						position: absolute;
+						top:1350px;
+						left: 4%;
+						text-align: center;
+						font-size: 80px;
+						font-family: Franklin Gothic Heavy;
+						
+						color: white;
+						text-shadow: 10px 10px 20px grey;
+						}
+				
+						p{
+							font-size: 110%;
+							font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+						}
+					}
+				
+
+.tc
+{
+	max-width: 15000px;
+	margin: -8px;
+	background: #f9f9f9;
+	font-size:20px;
+}
+
+.parallax3
+{
+	background: url("dp.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+
+}
+			#c
+		{
+			
+			position: absolute;
+			top:2090px;
+			left: 40%;
+			text-align: center;
+			font-size: 150px;
+			font-family: Franklin Gothic Heavy;
+			
+			color: white;
+			text-shadow: 10px 10px 20px grey;
+			}
+
+.fc
+{
+	max-width: 15000px;
+	margin: -8px;
+	background: #f9f9f9;
+	font-size:20px;
+}
+
+.parallax4
+{
+	background: url("sm.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+
+}
+			#d
+		{
+			
+			position: absolute;
+			top:2930px;
+			left: 20%;
+			text-align: center;
+			font-size: 150px;
+			font-family: Franklin Gothic Heavy;
+			
+			color: white;
+			text-shadow: 10px 10px 20px grey;
+			}
+
+.fifc
+{
+	max-width: 15000px;
+	margin: -8px;
+	background: #f9f9f9;
+	font-size:20px;
+}
+
+.parallax5
+{
+	background: url("av.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 900px;
+
+}
+		#e
+		{
+			
+			position: absolute;
+			top:4030px;
+			left: 15%;
+			text-align: center;
+			font-size: 150px;
+			font-family: Franklin Gothic Heavy;
+			color: white;
+			text-shadow: 10px 10px 20px grey;
+			}
+
+		
